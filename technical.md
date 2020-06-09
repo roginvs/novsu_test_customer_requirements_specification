@@ -33,3 +33,13 @@ export type ScanFunction = () => Token;
 
 export function TokenFactory(file: string): ScanFunction;
 ```
+
+## Модуль синтаксического анализатора
+
+```typescript
+// @TODO
+```
+
+## Исполняемый файл
+
+Исполняемый файл импортирует соответствующие функции из модулей и реализовывает программу согласно спецификации
