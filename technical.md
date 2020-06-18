@@ -29,7 +29,10 @@ identifier: string,
     value: number
 }
 
-export type ScanFunction = () => Token;
+/** 
+ * Returns Token or null if no tokens left
+*/
+export type ScanFunction = () => Token | null;
 
 export function TokenFactory(file: string): ScanFunction;
 ```
